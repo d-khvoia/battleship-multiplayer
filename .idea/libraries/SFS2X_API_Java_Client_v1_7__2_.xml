@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="SFS2X_API_Java_Client_v1.7 (2)">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/SFS2X_API_Java_Client_v1.7.2" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/SFS2X_API_Java_Client_v1.7.2" recursive="false" />
+  </library>
+</component>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.spribe.battleship.client.ui.PreGame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="156b1" class="javax.swing.JLabel" binding="gridSizeLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Inconsolata" size="20" style="1"/>
+          <foreground color="-4218095"/>
+          <text value="Grid size:"/>
+        </properties>
+      </component>
+      <component id="282d7" class="javax.swing.JTextField" binding="gridSizeTextField">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <caretColor color="-16777216"/>
+          <horizontalAlignment value="2"/>
+          <text value="10"/>
+        </properties>
+      </component>
+      <component id="c519a" class="javax.swing.JLabel" binding="headerText">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13156032"/>
+          <font name="Ink Free" size="36" style="1"/>
+          <foreground color="-4218095"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Game Setup"/>
+          <verticalAlignment value="1"/>
+        </properties>
+      </component>
+      <component id="94e54" class="javax.swing.JLabel" binding="playersReadyLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="4" vsize-policy="3" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13156032"/>
+          <font name="Ink Free" size="36" style="1"/>
+          <foreground color="-4218095"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Players ready:"/>
+          <verticalAlignment value="1"/>
+        </properties>
+      </component>
+      <component id="e2021" class="javax.swing.JLabel" binding="readyPlayersCountLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13156032"/>
+          <font name="Ink Free" size="36" style="1"/>
+          <foreground color="-4218095"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="0"/>
+          <verticalAlignment value="1"/>
+        </properties>
+      </component>
+      <component id="a7552" class="javax.swing.JLabel" binding="maxPlayersLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13156032"/>
+          <font name="Ink Free" size="36" style="1"/>
+          <foreground color="-4218095"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="/ 2"/>
+          <verticalAlignment value="1"/>
+        </properties>
+      </component>
+      <component id="6cf46" class="javax.swing.JButton" binding="readyButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="10"/>
+            <preferred-size width="200" height="50"/>
+            <maximum-size width="1000" height="1000"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="16" style="2"/>
+          <text value="Ready"/>
+        </properties>
+      </component>
+      <component id="75ae9" class="javax.swing.JButton" binding="newGameButton">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="10"/>
+            <preferred-size width="200" height="50"/>
+            <maximum-size width="1000" height="1000"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="16" style="2"/>
+          <text value="Create New Game"/>
+        </properties>
+      </component>
+      <component id="59197" class="javax.swing.JLabel" binding="playersTextLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="20"/>
+            <maximum-size width="1000" height="1000"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Ink Free" size="16" style="2"/>
+          <foreground color="-4218095"/>
+          <text value="Players in the room: "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
