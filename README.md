@@ -1,1 +1,1 @@
-# battleship-multiplayer
+# Battleship Multiplayer Game
