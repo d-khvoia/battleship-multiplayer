@@ -7,7 +7,7 @@ The purpose of
 ## Prerequisites
 To run the project, one needs to install or access SmartFoxServer 2X. 
 
-It is required to deploy server-side extension (the jar file with `code() BattleshipExtension` class) to the server in order for the game to function properly. See SmartFoxServer 2X Documentation for more details.
+It is required to deploy server-side extension (the jar file with `BattleshipExtension` class) to the server in order for the game to function properly. See SmartFoxServer 2X Documentation for more details.
 
 
 
